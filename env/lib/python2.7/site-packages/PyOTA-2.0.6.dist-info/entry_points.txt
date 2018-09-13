@@ -1,0 +1,3 @@
+[console_scripts]
+pyota-cli = iota.bin.repl:main
+

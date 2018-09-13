@@ -1,0 +1,46 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  line-height: 30px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body {
+  background: linear-gradient(62deg, #08D4DF 0%, #FA02FF 100%);
+  background: -moz-linear-gradient(62deg, #08D4DF 0%, #FA02FF 100%);
+  background: -webkit-linear-gradient(62deg, #08D4DF 0%, #FA02FF 100%);
+  background: -o-linear-gradient(62deg, #08D4DF 0%, #FA02FF 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: 212529;
+}
+
+code {
+  font-size: 80%;
+}
+
+body > .container {
+  padding: 0px 15px 0 15px;
+}
+
+form {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 42px 55px;
+}
